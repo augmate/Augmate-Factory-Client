@@ -7,5 +7,7 @@
     <dimen name="itemLocationTextSize">35sp</dimen>
     <dimen name="itemDetailsTextSize">25sp</dimen>
     <dimen name="veryLargeText">42sp</dimen>
+    <dimen name="LayoutLeftPadding">60dp</dimen>
+    <dimen name="itemDetailsSTextSize">18sp</dimen>
 
 </resources>

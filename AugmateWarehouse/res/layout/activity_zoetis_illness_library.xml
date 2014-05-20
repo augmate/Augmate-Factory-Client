@@ -18,6 +18,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
             android:text="BRD"
 	        android:textColor="#FFFFFF"
 	        android:textSize="@dimen/itemLocationTextSize"
@@ -28,9 +30,11 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
             android:text="Illness Library"
 	        android:textColor="#FFFFFF"
-	        android:textSize="@dimen/itemLocationTextSize"
+	        android:textSize="@dimen/itemDetailsSTextSize"
 		 />
 
     </RelativeLayout>

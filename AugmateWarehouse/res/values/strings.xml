@@ -6,7 +6,7 @@
     <string name="orderTitle">Animals</string>
     <string name="productTitle">Cow</string>
     <string name="mapTitle">Map</string>
-    <string name="ordernumlabel">Latest Diagnosis / Diagnosis Reciente</string>
+    <string name="ordernumlabel">Latest Diagnosis</string>
     <string name="title_activity_augmate_warehouse_confirm_pick">AugmateWarehouseConfirmPick</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
@@ -23,9 +23,9 @@
     <string name="action_logout">LOGOUT</string>
     <string name="action_cancel">CANCEL</string>
     <string name="glass_voice_trigger">animal healthcare</string>
-    <string name="diagnosis_label">Latest Diagnosis / Diagnosis Reciente</string>
-    <string name="most_recent_weight_label">Most Recent Weight / Peso Reciente</string>
-    <string name="pen_lot_label">Pen Lot / Lote</string>
-    <string name="since_treatment_label">Since Treatement / Desde Tratamiento</string>
+    <string name="diagnosis_label">Latest Diagnosis</string>
+    <string name="most_recent_weight_label">Most Recent Weight</string>
+    <string name="pen_lot_label">Pen Lot</string>
+    <string name="since_treatment_label">Days Since Treatment </string>
     <string name="report_cattle">Report Cattle</string>
 </resources>
