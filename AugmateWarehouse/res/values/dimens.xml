@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="menu_item_padding">50dp</dimen>
+    <dimen name="itemLocationTextSize">35sp</dimen>
+    <dimen name="itemDetailsTextSize">25sp</dimen>
+    <dimen name="veryLargeText">42sp</dimen>
+
+</resources>

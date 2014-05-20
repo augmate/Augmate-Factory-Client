@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_signin"
+        android:showAsAction="never"
+        android:icon="@drawable/scan"     
+        android:title="@string/action_signin"/>
+<!--     <item
+        android:id="@+id/action_play_tutorial"
+        android:showAsAction="never"
+        android:icon="@drawable/play"     
+        android:title="@string/action_play_tutorial"/>
+ -->
+</menu>

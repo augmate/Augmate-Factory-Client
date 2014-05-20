@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/SignInMenuItem"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentTop="false"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/menu_item_padding"
+                android:src="@drawable/scan" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignTop="@+id/imageView1"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_toRightOf="@id/imageView1"
+                android:text="@string/action_signin"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/PlayTutorialMenuItem"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/SignInMenuItem" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentTop="false"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/menu_item_padding"
+                android:src="@drawable/play" />
+
+            <TextView
+                android:id="@+id/mostRecentWeightLabel"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignTop="@+id/ImageView01"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_toRightOf="@+id/ImageView01"
+                android:text="@string/action_play_tutorial"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

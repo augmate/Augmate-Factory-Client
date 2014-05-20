@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+
+		<TextView
+		    android:id="@+id/skuPickedProduct"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:text="SKU #"
+		    android:textColor="#99cc00"
+		    android:textSize="30sp"
+		    android:typeface="normal" />
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_marginBottom="20dp"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginRight="20dp"
+		    android:layout_marginTop="20dp"
+		    android:baselineAligned="false"
+		    android:orientation="horizontal"
+		    android:paddingLeft="10dp"
+		    android:visibility="visible" >
+<!--
+
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:layout_marginBottom="0dp"
+		        android:layout_marginLeft="0dp"
+		        android:background="@drawable/left_gray_line"
+		        android:minWidth="90dp"
+		        android:orientation="vertical"
+		        android:paddingRight="7dp" >
+
+		        <TextView
+		            android:id="@+id/orderNumberLabelTextView"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/confirmpicklabel"
+		            android:textSize="18dp"
+		            android:width="125dp" />
+
+		        <TextView
+		            android:id="@+id/OrderNumberTextView"
+		            android:layout_width="match_parent"
+		            android:layout_height="68dp"
+		            android:textSize="32dp" />
+
+		        <TextView
+		            android:id="@+id/itemNumberInOrderTextView"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="Item n of m"
+		            android:textSize="16sp" />
+		    </LinearLayout>
+  -->
+		    <FrameLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent" >
+
+		        <LinearLayout
+		            android:id="@+id/confirmProductPicking"
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:background="#346600"
+		            android:orientation="vertical"
+		            android:padding="5dp" >
+
+		            <TextView
+		                android:id="@+id/textView1"
+		                android:layout_width="match_parent"
+		                android:layout_height="wrap_content"
+		                android:gravity="center_vertical|center_horizontal|center"
+		                android:height="44dp"
+		                android:text="Quantity to pick:"
+		                android:textSize="24sp" />
+
+		            <LinearLayout
+		                android:layout_width="match_parent"
+		                android:layout_height="wrap_content" >
+
+		                <TextView
+		                    android:id="@+id/numberOfProductsToPick"
+		                    android:layout_width="match_parent"
+		                    android:layout_height="wrap_content"
+		                    android:layout_weight="0.5"
+		                    android:gravity="center"
+		                    android:text="3"
+		                    android:textSize="30sp" />
+		            </LinearLayout>
+<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+<!-- 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/qtyToPickTextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Qty to pick: "
+                        android:textColor="#33b5e5"
+                        android:textSize="18sp"
+                        android:width="120dp" />
+
+                    <TextView
+                        android:id="@+id/qtyPickedTextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Qty picked: "
+                        android:textColor="#ff4444"
+                        android:textSize="18sp"
+                        android:width="120dp" />
+
+                    <TextView
+                        android:id="@+id/aisleTextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Aisle: "
+                        android:textSize="18sp"
+                        android:width="120dp" />
+
+                    <TextView
+                        android:id="@+id/shelfUnitTextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Shelf unit: "
+                        android:textSize="18sp"
+                        android:width="120dp" />
+
+                    <TextView
+                        android:id="@+id/shelfTextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Shelf: "
+                        android:textSize="18sp"
+                        android:width="120dp" />
+                </LinearLayout>
+ -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:orientation="vertical" >
+
+                    <WebView
+                        android:id="@+id/imageProduct"
+                        android:layout_width="match_parent"
+                        android:layout_height="82dp"
+                        android:layout_gravity="right"
+                        android:maxHeight="82dp"
+                        android:maxWidth="60dp"
+                        android:src="@drawable/no_image" />
+                </LinearLayout>
+            </LinearLayout>		        </LinearLayout>
+		    </FrameLayout>
+		</LinearLayout>
+
+	</LinearLayout>
+
+</FrameLayout>

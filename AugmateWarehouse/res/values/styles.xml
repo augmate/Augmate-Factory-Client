@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="dialogMenuStyle" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+        <item name="vpiLinePageIndicatorStyle">@style/CustomLinePageIndicator</item>
+        <item name="vpiUnderlinePageIndicatorStyle">@style/CustomUnderlinePageIndicator</item>
+	</style>
+	
+    <style name="CustomLinePageIndicator">
+        <item name="strokeWidth">4dp</item>
+        <item name="lineWidth">30dp</item>
+        <item name="unselectedColor">#FF888888</item>
+        <item name="selectedColor">#FF880000</item>
+    </style>
+
+    <style name="CustomUnderlinePageIndicator">
+        <item name="selectedColor">#00000000</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+ 
+ </resources>

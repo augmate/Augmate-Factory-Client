@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Welcome to Zoetis Animal Healthcare.</string>
+    <string name="app_name">Animal Healthcare</string>
+    <string name="orderTitle">Animals</string>
+    <string name="productTitle">Cow</string>
+    <string name="mapTitle">Map</string>
+    <string name="ordernumlabel">Latest Diagnosis / Diagnosis Reciente</string>
+    <string name="title_activity_augmate_warehouse_confirm_pick">AugmateWarehouseConfirmPick</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="confirmpicklabel">UP button: confirm quantity picked. BACK button: cancel</string>
+    <string name="poweredbyLabel">Powered By</string>
+    <string name="title_activity_conform_order_delivered">ConformOrderDeliveredActivity</string>
+    <string name="title_activity_augmate_warehouse_confirm_delivery">AugmateWarehouseConfirmDelivery</string>
+    <string name="title_activity_zoetis_illness_library">IllnessLibrary</string>
+    <string name="action_signin">SCAN ID</string>
+    <string name="action_play_tutorial">PLAY TUTORIAL</string>
+    <string name="action_call_manager">CALL MANAGER</string>
+    <string name="action_scan_item">SCAN ITEM</string>
+    <string name="action_report_item">REPORT ITEM</string>
+    <string name="action_logout">LOGOUT</string>
+    <string name="action_cancel">CANCEL</string>
+    <string name="glass_voice_trigger">animal healthcare</string>
+    <string name="diagnosis_label">Latest Diagnosis / Diagnosis Reciente</string>
+    <string name="most_recent_weight_label">Most Recent Weight / Peso Reciente</string>
+    <string name="pen_lot_label">Pen Lot / Lote</string>
+    <string name="since_treatment_label">Since Treatement / Desde Tratamiento</string>
+    <string name="report_cattle">Report Cattle</string>
+</resources>

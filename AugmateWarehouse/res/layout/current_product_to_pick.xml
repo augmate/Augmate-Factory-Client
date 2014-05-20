@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+		    android:layout_marginRight="@dimen/activity_horizontal_margin"
+		    android:layout_marginTop="@dimen/activity_vertical_margin"
+	        android:layout_weight="1"
+		    android:gravity="top|left"
+		    android:paddingLeft="10dp"
+		    android:orientation="vertical" >
+
+		    <TextView
+		        android:id="@+id/NameTextView"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:text="BRD"
+		        android:textColor="#959699"
+		        android:textSize="@dimen/itemLocationTextSize"
+		        android:width="125dp" />
+
+		    <TextView
+		        android:id="@+id/latestDiagnosis"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:text="@string/diagnosis_label"
+		        android:textColor="#959699" />
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="132dp"
+		    android:layout_marginBottom="10dp"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="10dp"
+		    android:layout_marginTop="10dp"
+		    android:baselineAligned="false"
+		    android:gravity="top|left"
+		    android:orientation="horizontal"
+		    android:paddingLeft="10dp"
+		    android:visibility="visible" >
+
+		    <LinearLayout
+		        android:id="@+id/productLayout"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:orientation="vertical"
+		        android:paddingLeft="10dp" >
+
+		        <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="top|left"
+		            android:layout_weight="1"
+		            android:orientation="vertical" >
+
+		            <TextView
+		                android:id="@+id/qtyToPickTextView"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="146 lbs"
+		                android:textColor="#959699"
+		                android:textSize="@dimen/itemDetailsTextSize"
+		                android:width="120dp" />
+
+		            <TextView
+		                android:id="@+id/mostRecentWeightLabel"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:text="@string/most_recent_weight_label"
+		                android:textColor="#959699" />
+
+		        </LinearLayout>
+
+		        <LinearLayout
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="top|left"
+		            android:layout_marginTop="@dimen/activity_vertical_margin"
+		            android:orientation="vertical" >
+
+		            <TextView
+		                android:id="@+id/aisleValueTextView"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_weight="1"
+		                android:gravity="center"
+		                android:minWidth="@dimen/itemLocationTextSize"
+		                android:text="25 days / dias"
+		                android:textColor="#959699"
+		                android:textSize="@dimen/itemDetailsTextSize" />
+
+		            <TextView
+		                android:id="@+id/TextView01"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:layout_marginTop="0dp"
+		                android:layout_weight="1"
+		                android:text="@string/since_treatment_label"
+		                android:textColor="#959699" />
+
+		        </LinearLayout>
+
+		    </LinearLayout>
+
+		    <LinearLayout
+		        android:id="@+id/productRightLayout"
+		        android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        android:layout_gravity="right"
+		        android:layout_marginBottom="0dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_weight=".4"
+		        android:orientation="vertical"
+		        android:paddingRight="7dp" >
+
+		        <TextView
+		            android:id="@+id/shelfUnitValueTextView"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:gravity="left"
+		            android:text="5"
+		            android:textColor="#959699"
+		            android:textSize="@dimen/itemDetailsTextSize" />
+
+		        <TextView
+		            android:id="@+id/penLotLabel"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="@string/pen_lot_label"
+		            android:textColor="#959699" />
+
+		        <TextView
+		            android:id="@+id/shelfValueTextView"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:gravity="bottom|left"
+		            android:minWidth="@dimen/itemLocationTextSize"
+		            android:text="M2351"
+		            android:textColor="#959699"
+		            android:textSize="@dimen/veryLargeText" />
+
+		    </LinearLayout>
+		</LinearLayout>
+
+	</LinearLayout>
+
+</FrameLayout>

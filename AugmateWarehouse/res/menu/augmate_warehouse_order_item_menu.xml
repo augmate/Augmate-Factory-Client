@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--     <item
+        android:id="@+id/action_call_manager"
+        android:showAsAction="never"
+        android:icon="@drawable/call"     
+        android:title="@string/action_call_manager"/>
+     <item
+        android:id="@+id/action_report_item"
+        android:showAsAction="never"
+        android:icon="@drawable/alert"     
+        android:title="@string/action_report_item"/>
+ -->
+    <item android:id="@+id/action_report_cattle"
+        android:showAsAction="never"
+        android:icon="@drawable/alert"
+        android:title="@string/report_cattle">
+    </item>
+    
+</menu>

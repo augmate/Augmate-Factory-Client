@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/action_to_market"
+        android:showAsAction="never"
+        android:title="To Market"/>
+    <item android:id="@+id/action_needs_treatment"
+        android:showAsAction="never"
+        android:title="Needs Treatment"/>
+    <item android:id="@+id/action_dead"
+        android:showAsAction="never"
+        android:title="Dead"/>
+</menu>

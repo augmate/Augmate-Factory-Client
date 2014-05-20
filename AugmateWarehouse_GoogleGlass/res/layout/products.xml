@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#222222"
+        android:gravity="top|left"
+        android:height="32dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/productTitle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:background="#333333">
+
+        <TextView
+            android:id="@+id/itemCountTextView"
+            android:layout_height="wrap_content"
+            android:text="@string/orderTitle" android:padding="15dp" android:layout_weight="1" android:gravity="center" android:layout_width="wrap_content"/>
+
+        <TextView
+            android:id="@+id/SKUtextView"
+            android:layout_height="wrap_content"
+            android:text="@string/productTitle" android:padding="15dp" android:background="@drawable/textlines" android:layout_weight="1" android:layout_gravity="center_vertical|center" android:gravity="center" android:layout_width="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"                
+       		android:clickable="true"
+            android:text="@string/mapTitle" android:layout_weight="1" android:paddingBottom="15dp" android:paddingTop="15dp" android:layout_gravity="center_horizontal" android:gravity="center" android:layout_width="wrap_content"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

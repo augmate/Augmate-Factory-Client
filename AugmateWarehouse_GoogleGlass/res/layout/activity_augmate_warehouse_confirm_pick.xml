@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="40dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginTop="20dp"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:visibility="visible" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="4"
+        android:background="@drawable/left_gray_line"
+        android:minWidth="90dp"
+        android:orientation="vertical"
+        android:paddingRight="7dp" >
+
+        <TextView
+            android:id="@+id/orderNumberLabelTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ordernumlabel"
+            android:textSize="32dp"
+            android:width="125dp" />
+
+        <TextView
+            android:id="@+id/OrderNumberTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="68dp"
+            android:textSize="32dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageProgressIcon"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/ico_progress" />
+
+            <TextView
+                android:id="@+id/inProgressTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:text="status"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/ImageShipmentIcon"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/ico_progress" />
+
+            <TextView
+                android:id="@+id/partialShipmentTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:text="partial ship."
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/itemNumberInOrderTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Item n of m"
+            android:textSize="14sp" />
+
+        </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+
+        <LinearLayout
+            android:id="@+id/confirmProductPicking"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#346600"
+            android:orientation="vertical"
+            android:padding="15dp" >
+
+            <TextView
+                android:id="@+id/skuPickedProduct"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SKU #"
+                android:textColor="#99cc00"
+                android:textSize="32sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:height="44dp"
+                android:text="Quantity to pick:"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/numberOfProductsToPick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:gravity="right"
+                    android:text="3"
+                    android:textSize="100sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
+
+</FrameLayout>

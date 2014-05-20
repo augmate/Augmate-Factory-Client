@@ -1,0 +1,13 @@
+to do list:
+
+1. data model of Json  (TBD)
+
+2. transmission from CMS to Android and vice versa. (TBD)
+
+3. map 
+   save images for different situtations -- click each item of the list, one image will show up.
+
+4. decoder 
+   Zxing scanner is called when clicking "scanner" button. It's better to install zxing scanner to the Android phone before using this app.
+
+5. interface
